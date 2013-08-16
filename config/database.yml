@@ -15,8 +15,13 @@ development:
   reconnect: false
   database: guessEat_development
   pool: 5
+<<<<<<< HEAD
   username: root
   password: 0guiwei
+=======
+  username: guessEat
+  password: guesseat
+>>>>>>> 85d4cad928186d773c91d66e3dc1f48f34e6fa68
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
