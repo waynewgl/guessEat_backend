@@ -1,0 +1,68 @@
+[ 2013-08-15 12:38:10.2841 950/7f03922f3740 agents/Watchdog/Main.cpp:452 ]: Options: { 'analytics_log_user' => 'nobody', 'default_group' => 'root', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/wrappers/ruby-1.9.3-p448@guessEat/ruby', 'default_user' => 'root', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1pcdzr0/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzEyNy4wLjAuMTozMDAzAA==', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_pid' => '949', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '0', 'web_server_worker_uid' => '0' }
+[ 2013-08-15 12:38:10.2896 953/7fa2b9272740 agents/HelperAgent/Main.cpp:597 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.949/generation-0/request
+[ 2013-08-15 12:38:10.5210 958/7ff9f6526740 agents/LoggingAgent/Main.cpp:330 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.949/generation-0/logging
+[ 2013-08-15 12:38:10.5226 950/7f03922f3740 agents/Watchdog/Main.cpp:635 ]: All Phusion Passenger agents started!
+[ 2013-08-15 12:38:12.3971 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr] stdin: is not a tty
+[ 2013-08-15 12:38:12.4261 953/7fa2b917b700 Pool2/Spawner.h:738 ]: [App 983 stdout] 
+[ 2013-08-15 12:38:12.5045 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr] *** Phusion Passenger: no passenger_native_support.so found for the current Ruby interpreter. Compiling one...
+[ 2013-08-15 12:38:12.5046 953/7fa2b913a700 Pool2/Spawner.h:151 ]: [App 983 stderr] 
+[ 2013-08-15 12:38:12.5048 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr] # mkdir -p /tmp/passenger-standalone.1pcdzr0/locations.ini/buildout/ruby/ruby-1.9.3-x86_64-linux
+[ 2013-08-15 12:38:12.5049 953/7fa2b913a700 Pool2/Spawner.h:151 ]: [App 983 stderr] 
+[ 2013-08-15 12:38:12.5053 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr] Not a valid directory. Trying a different one...
+[ 2013-08-15 12:38:12.5054 953/7fa2b913a700 Pool2/Spawner.h:151 ]: [App 983 stderr] 
+[ 2013-08-15 12:38:12.5055 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr] -------------------------------
+[ 2013-08-15 12:38:12.5056 953/7fa2b913a700 Pool2/Spawner.h:151 ]: [App 983 stderr] 
+[ 2013-08-15 12:38:12.5058 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr] # mkdir -p /root/.passenger/native_support/4.0.10/ruby-1.9.3-x86_64-linux
+[ 2013-08-15 12:38:12.5059 953/7fa2b913a700 Pool2/Spawner.h:151 ]: [App 983 stderr] 
+[ 2013-08-15 12:38:12.5061 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr] # cd /root/.passenger/native_support/4.0.10/ruby-1.9.3-x86_64-linux
+[ 2013-08-15 12:38:12.5062 953/7fa2b913a700 Pool2/Spawner.h:151 ]: [App 983 stderr] 
+[ 2013-08-15 12:38:12.5065 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr] # /usr/local/rvm/wrappers/ruby-1.9.3-p448@guessEat/ruby '/usr/local/rvm/gems/ruby-1.9.3-p448@guessEat/gems/passenger-4.0.10/ext/ruby/extconf.rb'
+[ 2013-08-15 12:38:12.5066 953/7fa2b913a700 Pool2/Spawner.h:151 ]: [App 983 stderr] 
+[ 2013-08-15 12:38:12.6317 953/7fa2b917b700 Pool2/Spawner.h:738 ]: [App 983 stdout] checking for alloca.h... yes
+[ 2013-08-15 12:38:12.6549 953/7fa2b917b700 Pool2/Spawner.h:738 ]: [App 983 stdout] checking for ruby/io.h... yes
+[ 2013-08-15 12:38:12.6550 953/7fa2b917b700 Pool2/Spawner.h:738 ]: [App 983 stdout] creating Makefile
+[ 2013-08-15 12:38:12.6558 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr] # make
+[ 2013-08-15 12:38:12.6593 953/7fa2b917b700 Pool2/Spawner.h:738 ]: [App 983 stdout] compiling /usr/local/rvm/gems/ruby-1.9.3-p448@guessEat/gems/passenger-4.0.10/ext/ruby/passenger_native_support.c
+[ 2013-08-15 12:38:12.8558 953/7fa2b917b700 Pool2/Spawner.h:738 ]: [App 983 stdout] linking shared-object passenger_native_support.so
+[ 2013-08-15 12:38:12.8820 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr] Compilation succesful.
+[ 2013-08-15 12:38:12.8822 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr] -------------------------------
+[ 2013-08-15 12:38:14.0281 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr]         SECURITY WARNING: No secret option provided to Rack::Session::Cookie.
+[ 2013-08-15 12:38:14.0284 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr]         This poses a security threat. It is strongly recommended that you
+[ 2013-08-15 12:38:14.0284 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr]         provide a secret to prevent exploits that may be possible from crafted
+[ 2013-08-15 12:38:14.0286 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr]         cookies. This will not be supported in future versions of Rack, and
+[ 2013-08-15 12:38:14.0286 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr]         future versions will even invalidate your existing user cookies.
+[ 2013-08-15 12:38:14.0287 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr] 
+[ 2013-08-15 12:38:14.0288 953/7fa2b913a700 Pool2/Spawner.h:159 ]: [App 983 stderr]         Called from: /usr/local/rvm/gems/ruby-1.9.3-p448@guessEat/gems/actionpack-3.2.9/lib/action_dispatch/middleware/session/abstract_store.rb:28:in `initialize'.
+[ 2013-08-15 12:38:14.0289 953/7fa2b913a700 Pool2/Spawner.h:151 ]: [App 983 stderr] 
+[ 2013-08-15 12:38:14.1014 953/7fa2b917b700 Pool2/SmartSpawner.h:301 ]: Preloader for /var/www/app/guessEat_backend started on PID 983, listening on unix:/tmp/passenger.1.0.949/generation-0/backends/preloader.983
+[ 2013-08-16 09:06:35.1950 958/7ff9f6526740 agents/LoggingAgent/Main.cpp:298 ]: Caught signal, exiting...
+[ 2013-08-16 15:57:26.6633 7939/7fd091637740 agents/Watchdog/Main.cpp:452 ]: Options: { 'analytics_log_user' => 'nobody', 'default_group' => 'root', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/wrappers/ruby-1.9.3-p448@guessEat/ruby', 'default_user' => 'root', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1mblb/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzEyNy4wLjAuMTozMDAzAA==', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_pid' => '7938', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '0', 'web_server_worker_uid' => '0' }
+[ 2013-08-16 15:57:26.7506 7942/7fe3b89e4740 agents/HelperAgent/Main.cpp:597 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.7938/generation-0/request
+[ 2013-08-16 15:57:26.7881 7947/7f83876ce740 agents/LoggingAgent/Main.cpp:330 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.7938/generation-0/logging
+[ 2013-08-16 15:57:26.7896 7939/7fd091637740 agents/Watchdog/Main.cpp:635 ]: All Phusion Passenger agents started!
+[ 2013-08-16 15:57:28.8791 7942/7fe3b88ac700 Pool2/Spawner.h:159 ]: [App 7972 stderr] stdin: is not a tty
+[ 2013-08-16 15:57:28.9010 7942/7fe3b88ed700 Pool2/Spawner.h:738 ]: [App 7972 stdout] 
+[ 2013-08-16 15:57:31.5791 7942/7fe3b88ac700 Pool2/Spawner.h:159 ]: [App 7972 stderr]         SECURITY WARNING: No secret option provided to Rack::Session::Cookie.
+[ 2013-08-16 15:57:31.5793 7942/7fe3b88ac700 Pool2/Spawner.h:159 ]: [App 7972 stderr]         This poses a security threat. It is strongly recommended that you
+[ 2013-08-16 15:57:31.5794 7942/7fe3b88ac700 Pool2/Spawner.h:159 ]: [App 7972 stderr]         provide a secret to prevent exploits that may be possible from crafted
+[ 2013-08-16 15:57:31.5795 7942/7fe3b88ac700 Pool2/Spawner.h:159 ]: [App 7972 stderr]         cookies. This will not be supported in future versions of Rack, and
+[ 2013-08-16 15:57:31.5796 7942/7fe3b88ac700 Pool2/Spawner.h:159 ]: [App 7972 stderr]         future versions will even invalidate your existing user cookies.
+[ 2013-08-16 15:57:31.5797 7942/7fe3b88ac700 Pool2/Spawner.h:159 ]: [App 7972 stderr] 
+[ 2013-08-16 15:57:31.5798 7942/7fe3b88ac700 Pool2/Spawner.h:159 ]: [App 7972 stderr]         Called from: /usr/local/rvm/gems/ruby-1.9.3-p448@guessEat/gems/actionpack-3.2.9/lib/action_dispatch/middleware/session/abstract_store.rb:28:in `initialize'.
+[ 2013-08-16 15:57:31.5800 7942/7fe3b88ac700 Pool2/Spawner.h:151 ]: [App 7972 stderr] 
+[ 2013-08-16 15:57:31.6868 7942/7fe3b88ed700 Pool2/SmartSpawner.h:301 ]: Preloader for /var/www/app/guessEat_backend started on PID 7972, listening on unix:/tmp/passenger.1.0.7938/generation-0/backends/preloader.7972
+[ 2013-08-16 16:52:51.5917 12377/7fc2048a6740 agents/Watchdog/Main.cpp:452 ]: Options: { 'analytics_log_user' => 'nobody', 'default_group' => 'root', 'default_python' => 'python', 'default_ruby' => '/usr/local/rvm/wrappers/ruby-1.9.3-p448@guessEat/ruby', 'default_user' => 'root', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.lcd1cu/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzEyNy4wLjAuMTozMDAzAA==', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_pid' => '12376', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '0', 'web_server_worker_uid' => '0' }
+[ 2013-08-16 16:52:51.5972 12380/7ff0c58a2740 agents/HelperAgent/Main.cpp:597 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.12376/generation-0/request
+[ 2013-08-16 16:52:51.6051 12388/7f107771a740 agents/LoggingAgent/Main.cpp:330 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.12376/generation-0/logging
+[ 2013-08-16 16:52:51.6068 12377/7fc2048a6740 agents/Watchdog/Main.cpp:635 ]: All Phusion Passenger agents started!
+[ 2013-08-16 16:52:53.7052 12380/7ff0c576a700 Pool2/Spawner.h:159 ]: [App 12410 stderr] stdin: is not a tty
+[ 2013-08-16 16:52:53.7130 12380/7ff0c57ab700 Pool2/Spawner.h:738 ]: [App 12410 stdout] 
+[ 2013-08-16 16:52:54.9249 12380/7ff0c576a700 Pool2/Spawner.h:159 ]: [App 12410 stderr]         SECURITY WARNING: No secret option provided to Rack::Session::Cookie.
+[ 2013-08-16 16:52:54.9251 12380/7ff0c576a700 Pool2/Spawner.h:159 ]: [App 12410 stderr]         This poses a security threat. It is strongly recommended that you
+[ 2013-08-16 16:52:54.9252 12380/7ff0c576a700 Pool2/Spawner.h:159 ]: [App 12410 stderr]         provide a secret to prevent exploits that may be possible from crafted
+[ 2013-08-16 16:52:54.9253 12380/7ff0c576a700 Pool2/Spawner.h:159 ]: [App 12410 stderr]         cookies. This will not be supported in future versions of Rack, and
+[ 2013-08-16 16:52:54.9254 12380/7ff0c576a700 Pool2/Spawner.h:159 ]: [App 12410 stderr]         future versions will even invalidate your existing user cookies.
+[ 2013-08-16 16:52:54.9255 12380/7ff0c576a700 Pool2/Spawner.h:159 ]: [App 12410 stderr] 
+[ 2013-08-16 16:52:54.9256 12380/7ff0c576a700 Pool2/Spawner.h:159 ]: [App 12410 stderr]         Called from: /usr/local/rvm/gems/ruby-1.9.3-p448@guessEat/gems/actionpack-3.2.9/lib/action_dispatch/middleware/session/abstract_store.rb:28:in `initialize'.
+[ 2013-08-16 16:52:54.9257 12380/7ff0c576a700 Pool2/Spawner.h:151 ]: [App 12410 stderr] 
+[ 2013-08-16 16:52:54.9963 12380/7ff0c57ab700 Pool2/SmartSpawner.h:301 ]: Preloader for /var/www/app/guessEat_backend started on PID 12410, listening on unix:/tmp/passenger.1.0.12376/generation-0/backends/preloader.12410
